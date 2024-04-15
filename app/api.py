@@ -8,12 +8,7 @@ app = FastAPI()
 from fastapi.middleware.cors import CORSMiddleware
 
 # Set up CORS
-origins = [
-    "http://localhost",
-    "http://localhost:3000",
-    "*"
-    # Add other origins as needed
-]
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
