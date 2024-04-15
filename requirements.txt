@@ -1,0 +1,5 @@
+fastapi==0.104.1
+beautifulsoup4==4.12.2
+uvicorn==0.24.0.post1
+fastapi-socketio
+requests==2.28.1
